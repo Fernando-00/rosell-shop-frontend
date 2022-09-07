@@ -19,7 +19,7 @@ const Products = ({cat, filters, sort}) => {
   const [filteredProducts, setFilteredProducts] = useState(()=>[]);
   console.log(filteredProducts);
  
-
+console.log(process.env.REACT_APP_API)
   useEffect(()=>{
     const getProducts = async ()=>{
       try{
