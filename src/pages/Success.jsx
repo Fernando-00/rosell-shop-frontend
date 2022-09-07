@@ -27,7 +27,7 @@ const Success = () => {
 
   useEffect(()=>{
     const fetchDetails = async () =>{
-      await fetch(process.env.REACT_API + `checkout/payment/search/${stripeId}`)
+      await fetch(process.env.REACT_APP_API + `checkout/payment/search/${stripeId}`)
         .then(response=>response.json())
         .then(res => {
           

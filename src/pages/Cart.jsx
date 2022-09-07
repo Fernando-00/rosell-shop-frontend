@@ -202,7 +202,7 @@ const Cart = () => {
         
         let products = cart.products.map((item)=>{return {id: item._id, quantity: item.quantity}});
         
-        fetch("http://localhost:5000/api/checkout/payment", {
+        fetch(process.env.REACT_APP_API + "checkout/payment", {
             method: "POST",
             headers: {
             "Content-Type": "application/json",
