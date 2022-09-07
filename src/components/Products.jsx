@@ -24,8 +24,8 @@ console.log(process.env.REACT_APP_API)
     const getProducts = async ()=>{
       try{
         const res = await axios.get(cat 
-        ? process.env.REACT_APP_API + `products?category=${cat}`
-        : process.env.REACT_APP_API + "products");
+        ? "https://rosell-shop-backend.herokuapp.com/api/" + `products?category=${cat}`
+        : "https://rosell-shop-backend.herokuapp.com/api/" + "products");
         console.log(res.data);
         setProducts(res.data);
       }catch(err){
