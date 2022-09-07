@@ -67,7 +67,7 @@ useEffect(()=>{
         {cat ? filteredProducts.length == 0 ? <div style={{textAlign:"center"}}><h3>Sorry no products avaible at this time...</h3></div>
         : filteredProducts.map((item)=>(
             <Product item={item} key={item.id}/>
-        )) : products.slice(0,8).map((item)=>(
+        )) : products.map((item)=>(
           <Product item={item} key={item.id}/>
       ))}
     </Container>
