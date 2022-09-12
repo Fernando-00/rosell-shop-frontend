@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+<h1 align="center">
+  <br>
+  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://i.ibb.co/khMB4rS/Rosell-Shop.png" alt="Markdownify" width="500"></a>
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h4 align="center">An eccomerce project's frontend where users can purchase clothing products online.</h4>
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `yarn start`
+<p align="center">
+  <a href="#key-features">Key Features</a> •
+  <a href="#how-to-use">How To Use</a> •
+  <a href="#download">Download</a> •
+  <a href="#credits">Credits</a> •
+  <a href="#related">Related</a> •
+  <a href="#license">License</a>
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Key Features
 
-### `yarn test`
+* Front Page Display
+  - Can see what the most popular products are on the website
+  - Retrieves from API to display products for the site
+* Redux Persisted State
+  - Website calls API endpoint and stores information in a Redux state
+  - Stores information about the user's profile, website's products, and cart products/total
+* Viewing Multiple Products
+  - Products are filtered through different categories they match, colors, and sizes avaible for those products
+* Viewing Single Product
+  - Can access product's different styles by changing its color, size, and quantity
+* Functional Cart and Checkout
+  - Users can add multiple products to cart and it will auto update
+  - At checkout stripe is used to process card information and billing address
+  - If checkout is successful order information is stored to API
+* Account Creation
+  - Users can create a profile by registering or logging in
+  - User's can look at previous orders they made on an account and change profile information
+* Search Bar to look up different categories of products
+* In Progress Newsletter
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How To Use
 
-### `yarn build`
+Please visit the app's heroku deployment link at: https://rosell-shop.herokuapp.com/
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Connected App's
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Project's frontend relies on the back end
+  - can be found at: https://github.com/Fernando-00/rosell-shop-backend
+* Project also utilizes an admin site 
+  - can be used to add new products to frontend, look at sales, modify users, and look at orders
+  - can be found at: https://github.com/Fernando-00/rosell-shop-admin
 
-### `yarn eject`
+## Credits
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+I followed this series for the project and added additional features to it: 
+- https://www.youtube.com/playlist?list=PLj-4DlPRT48mxPG8TAXOH4qqQ1ijuERO4
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+---
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> [amitmerchant.com](https://www.amitmerchant.com) &nbsp;&middot;&nbsp;
+> GitHub [@amitmerchant1990](https://github.com/amitmerchant1990) &nbsp;&middot;&nbsp;
+> Twitter [@amit_merchant](https://twitter.com/amit_merchant)
