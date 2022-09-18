@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="https://i.ibb.co/khMB4rS/Rosell-Shop.png" alt="Markdownify" width="500">
+  <img src="https://i.ibb.co/khMB4rS/Rosell-Shop.png" width="500">
 </h1>
 
 <h4 align="center">An eccomerce project's frontend where users can purchase clothing products online.</h4>
