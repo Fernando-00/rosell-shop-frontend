@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://i.ibb.co/khMB4rS/Rosell-Shop.png" alt="Markdownify" width="500"></a>
+  <img src="https://i.ibb.co/khMB4rS/Rosell-Shop.png" alt="Markdownify" width="500">
 </h1>
 
 <h4 align="center">An eccomerce project's frontend where users can purchase clothing products online.</h4>
@@ -58,9 +58,3 @@ Please visit the app's heroku deployment link at: https://rosell-shop.herokuapp.
 I followed this series for the project and added additional features to it: 
 - https://www.youtube.com/playlist?list=PLj-4DlPRT48mxPG8TAXOH4qqQ1ijuERO4
 
-
----
-
-> [amitmerchant.com](https://www.amitmerchant.com) &nbsp;&middot;&nbsp;
-> GitHub [@amitmerchant1990](https://github.com/amitmerchant1990) &nbsp;&middot;&nbsp;
-> Twitter [@amit_merchant](https://twitter.com/amit_merchant)
